@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Carolina Orellana">
-    <title>Carolina Orellana - Portafolio</title>
-</head>
-<body>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carolina Orellana">
+        <title>Carolina Orellana - Portafolio</title>
+    </head>
+    <body>
+        <h1>Carolina Orellana</h1>
+        <img src="img/foto.jpg" alt="Fotografía de Carolina Orellana" width="300px">
+        <div>
+            <img src="img/github.png" alt="Logo de Github" height="50px">
+            <a href="https://github.com/carolinaorellana"> Revisa mi Github</a>
+            <img src="img/linkedin.png" alt="Logo de Linkedin" height="50px">
+            <a href="https://www.linkedin.com/in/carolina-orellana-montecino-b321b3237/">Revisa mi Linkedin</a>
+            <img src="img/gmail.webp" alt="Logo de Gmail" height="50px">
+            <a href="mailto:cnorellanam@gmail.com">Contáctame por Correo</a>
+        </div>
+
+        <h2>Tecnologías</h2>
+        <table>
+            <!-- tr son las filas de la tabla -->
+            <!-- th son los HEADER o TITULOS de la tabla -->
+            <!-- td son los datos regulares de la tabla -->
+            <tr>
+                <th>Diseño</th>
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>JavaScript</th>
+                <th>Database</th>
+                <th>Conceptos</th>
+            </tr>
+            <tr>
+                <td>Figma</td>
+                <td>HTML-5</td>
+                <td>Django</td>
+                <td>Express</td>
+                <td>MySQL</td>
+                <td>AJAX</td>
+            </tr>
+            <tr>
+                <td>Illustrator</td>
+                <td>CSS3</td>
+                <td>Flask</td>
+                <td>Mongoose</td>
+                <td>MongoDB</td>
+                <td>OPP</td>
+            </tr>
+            <tr>
+                <td>Photoshop</td>
+                <td>Bootstrap</td>
+                <td>Unittest</td>
+                <td>React</td>
+                <td></td>
+                <td>REST</td>
+            </tr>
+        </table>
+        <h2>Proyectos</h2>
+        <img src="img/behance.png" alt="Logo de Behance" width="50px">
+        <a href="https://www.behance.net/cnorellanad177"> Revisa más proyectos en Behance</a>
+
+        <h2>Contacto</h2>
+        <form action="/process" method="post">
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre">
+                <label>Correo electrónico:</label>
+                <input type="text" name="correo">
+            </div>
+            <div>
+                <label>Escribe una breve descripción sobre mi mismo:</label>
+                <textarea name="descripcion" cols="40" rows="4"></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensaje" >
+        </form>
+    </body>
 </html>
